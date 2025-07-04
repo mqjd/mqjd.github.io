@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Minimal Blog - @lekoarts/gatsby-theme-minimal-blog]]></title><description><![CDATA[Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and line highlighting.]]></description><link>https://minimal-blog.lekoarts.de</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 04 Jul 2025 02:43:09 GMT</lastBuildDate><item><title><![CDATA[DuckDB Statements]]></title><link>https://minimal-blog.lekoarts.de/duckdb-statements</link><guid isPermaLink="false">https://minimal-blog.lekoarts.de/duckdb-statements</guid><pubDate>Sun, 08 Dec 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;官方DOC struct and unnest
+select UNNEST([1,2,3,4,5]) as a;
+select UNNEST([({&apos;i&apos;: 3, &apos;s&apos;: &apos;string&apos;}), ({&apos;i&apos;: 3, &apos;s&apos;: &apos;string&apos;})]) as a…&lt;/p&gt;&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://minimal-blog.lekoarts.de/duckdb-statements&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;&lt;/div&gt;&lt;br /&gt; &lt;br /&gt;</content:encoded></item><item><title><![CDATA[Docker Desktop 切换 Colima]]></title><link>https://minimal-blog.lekoarts.de/docker-desktop-to-colima</link><guid isPermaLink="false">https://minimal-blog.lekoarts.de/docker-desktop-to-colima</guid><pubDate>Sat, 17 Feb 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;安装 清理
+
+未安装过docker则直接跳过
+
+brew uninstall docker --cask
+cd ~
+rm -rf .docker
+
+安装
+brew install docker docker-compose kubernetes-cli colima
+
+
+可能出…&lt;/p&gt;&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://minimal-blog.lekoarts.de/docker-desktop-to-colima&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;&lt;/div&gt;&lt;br /&gt; &lt;br /&gt;</content:encoded></item><item><title><![CDATA[SQL高级语法]]></title><link>https://minimal-blog.lekoarts.de/sql-advanced-grammar</link><guid isPermaLink="false">https://minimal-blog.lekoarts.de/sql-advanced-grammar</guid><pubDate>Tue, 23 Jan 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;递归 MySQL
+
+MySQL在8.0版本支持了RECURSIVE可以用于递归查询
+
+生成5行数据
+WITH RECURSIVE cte (n) AS (
+    SELECT 1
+    UNION ALL
+    SELECT n + 1
+    FROM cte…&lt;/p&gt;&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://minimal-blog.lekoarts.de/sql-advanced-grammar&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;&lt;/div&gt;&lt;br /&gt; &lt;br /&gt;</content:encoded></item><item><title><![CDATA[Spark基本知识]]></title><link>https://minimal-blog.lekoarts.de/spark-basic</link><guid isPermaLink="false">https://minimal-blog.lekoarts.de/spark-basic</guid><pubDate>Sat, 13 Jan 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;架构&lt;/p&gt;&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://minimal-blog.lekoarts.de/spark-basic&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;&lt;/div&gt;&lt;br /&gt; &lt;br /&gt;</content:encoded></item><item><title><![CDATA[MySQL Statements]]></title><link>https://minimal-blog.lekoarts.de/mysql-statements</link><guid isPermaLink="false">https://minimal-blog.lekoarts.de/mysql-statements</guid><pubDate>Tue, 18 Jul 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;官方DOC SQL 示例
+
+-- 创建用户
+CREATE USER &apos;test&apos;@&apos;localhost&apos; IDENTIFIED BY &apos;123456&apos;;
+-- 修改用户
+ALTER USER &apos;test&apos;@&apos;localhost&apos; IDENTIFIED BY &apos;1234567&apos;;
+-…&lt;/p&gt;&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://minimal-blog.lekoarts.de/mysql-statements&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;&lt;/div&gt;&lt;br /&gt; &lt;br /&gt;</content:encoded></item><item><title><![CDATA[大数据架构]]></title><link>https://minimal-blog.lekoarts.de/bigdata-architecture</link><guid isPermaLink="false">https://minimal-blog.lekoarts.de/bigdata-architecture</guid><pubDate>Sun, 09 Jul 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;大数据架构通常用来解决大量的(Volume)、高速的(Velocity)、多样化 (Variety) 的数据引入、处理和分析等方面的问题 	 大量 (Volume)	 大数据的“大”首先体现在数据量上。这意味着您需要处理海量、低密度的非结构化数据…&lt;/p&gt;&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://minimal-blog.lekoarts.de/bigdata-architecture&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;&lt;/div&gt;&lt;br /&gt; &lt;br /&gt;</content:encoded></item><item><title><![CDATA[Mirror Site]]></title><link>https://minimal-blog.lekoarts.de/mirrir-site</link><guid isPermaLink="false">https://minimal-blog.lekoarts.de/mirrir-site</guid><pubDate>Wed, 21 Dec 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;镜像类网站 企业
+搜狐 搜狐镜像 网易 网易镜像 阿里云 阿里云镜像 淘宝 淘宝镜像 华为 华为镜像
+大学
+清华大学 浙江大学 中国科技大学 北京交通大学 北京理工大学 兰州大学
+Apache 历史归档
+官方存档 阿里镜像 华为镜像
+Maven 阿里镜像
+&lt;mirro…&lt;/p&gt;&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://minimal-blog.lekoarts.de/mirrir-site&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;&lt;/div&gt;&lt;br /&gt; &lt;br /&gt;</content:encoded></item><item><title><![CDATA[Git Operators]]></title><link>https://minimal-blog.lekoarts.de/git</link><guid isPermaLink="false">https://minimal-blog.lekoarts.de/git</guid><pubDate>Sun, 16 Jan 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;基础 设置用户与邮箱
+
+git config --global user.name &quot;John Doe&quot;
+git config --global user.email johndoe@example.com
+
+
+初始化仓库
+
+mkdir test
+cd test
+git…&lt;/p&gt;&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://minimal-blog.lekoarts.de/git&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;&lt;/div&gt;&lt;br /&gt; &lt;br /&gt;</content:encoded></item><item><title><![CDATA[Netflix Recommendation]]></title><link>https://minimal-blog.lekoarts.de/netflix-recommendation</link><guid isPermaLink="false">https://minimal-blog.lekoarts.de/netflix-recommendation</guid><pubDate>Sat, 15 Jan 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;/p&gt;&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://minimal-blog.lekoarts.de/netflix-recommendation&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;&lt;/div&gt;&lt;br /&gt; &lt;br /&gt;</content:encoded></item><item><title><![CDATA[Grid Css]]></title><link>https://minimal-blog.lekoarts.de/grid-css</link><guid isPermaLink="false">https://minimal-blog.lekoarts.de/grid-css</guid><pubDate>Thu, 13 Jan 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;网格布局顾名思义就是将页面由网格划分开，类似与Table组件 Color System is Theme-UI Tailwind&lt;/p&gt;&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://minimal-blog.lekoarts.de/grid-css&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;&lt;/div&gt;&lt;br /&gt; &lt;br /&gt;</content:encoded></item><item><title><![CDATA[Github CDN]]></title><link>https://minimal-blog.lekoarts.de/github-cdn</link><guid isPermaLink="false">https://minimal-blog.lekoarts.de/github-cdn</guid><pubDate>Mon, 03 Jan 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Github 图床 jsdelivr 加速访问
+
+使用 jsdelivr 加速 github 资源的访问，仓库必须设置为 public
+
+https://cdn.jsdelivr.net/gh/用户名/仓库名/文件路径
+如 https://cdn.jsdelivr.net/gh…&lt;/p&gt;&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://minimal-blog.lekoarts.de/github-cdn&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;&lt;/div&gt;&lt;br /&gt; &lt;br /&gt;</content:encoded></item><item><title><![CDATA[Gatsby Example]]></title><link>https://minimal-blog.lekoarts.de/gatsby-example</link><guid isPermaLink="false">https://minimal-blog.lekoarts.de/gatsby-example</guid><pubDate>Mon, 03 Jan 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Here will a live code example go: const onClick = () =&gt; {
+  alert(&quot;You opened me&quot;);
+};
+render(&lt;button onClick={onClick}&gt;Alohomora!&lt;/button&gt;)…&lt;/p&gt;&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://minimal-blog.lekoarts.de/gatsby-example&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;&lt;/div&gt;&lt;br /&gt; &lt;br /&gt;</content:encoded></item><item><title><![CDATA[Flink内存配置]]></title><link>https://minimal-blog.lekoarts.de/flink-memory</link><guid isPermaLink="false">https://minimal-blog.lekoarts.de/flink-memory</guid><pubDate>Sat, 10 Oct 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Flink内存分配总体上可以从堆内堆外、JVM占用和Flink占用来进行划分，对这两种划分进行解展示，详细信息也可以参考Flink内存介绍官网进行查看。 下图可以点击箭头进行切换&lt;/p&gt;&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://minimal-blog.lekoarts.de/flink-memory&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;&lt;/div&gt;&lt;br /&gt; &lt;br /&gt;</content:encoded></item><item><title><![CDATA[Flink基本知识]]></title><link>https://minimal-blog.lekoarts.de/flink-basic</link><guid isPermaLink="false">https://minimal-blog.lekoarts.de/flink-basic</guid><pubDate>Fri, 24 Apr 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Flink 基本概念 Apache Flink 是一个框架和分布式处理引擎，用于在无边界和有边界数据流上进行有状态的计算。Flink 能在所有常见集群环境中运行，并能以内存速度和任意规模进行计算。
+
+名词介绍
+
+Flink官网: 名词介绍
+
+整体组件
+
+下面的图片可点击模块跳转至官方…&lt;/p&gt;&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://minimal-blog.lekoarts.de/flink-basic&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;&lt;/div&gt;&lt;br /&gt; &lt;br /&gt;</content:encoded></item><item><title><![CDATA[Flink环境搭建]]></title><link>https://minimal-blog.lekoarts.de/flink-environment</link><guid isPermaLink="false">https://minimal-blog.lekoarts.de/flink-environment</guid><pubDate>Thu, 23 Apr 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;安装Flink 官方介绍地址
+
+下载Flink
+
+下载Flink并解压，Flink 官方下载地址
+
+tar xzf flink-*.tgz
+
+
+以本地模式启动
+
+执行以下命令启动
+
+./bin/start-cluster.sh
+
+
+打开网址http://localhost…&lt;/p&gt;&lt;div style=&quot;margin-top: 50px; font-style: italic;&quot;&gt;&lt;strong&gt;&lt;a href=&quot;https://minimal-blog.lekoarts.de/flink-environment&quot;&gt;Keep reading&lt;/a&gt;.&lt;/strong&gt;&lt;/div&gt;&lt;br /&gt; &lt;br /&gt;</content:encoded></item></channel></rss>
