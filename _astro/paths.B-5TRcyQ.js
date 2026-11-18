@@ -1,0 +1,1 @@
+function e(e,t){let n=e.startsWith(`/`)?e:`/${e}`,r=t.replace(/^\/+|\/+$/g,``),i=r?`/${r}`:``;return!i||n===i||n.startsWith(`${i}/`)?n:`${i}${n}`}export{e as t};
